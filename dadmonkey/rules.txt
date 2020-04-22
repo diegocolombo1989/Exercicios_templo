@@ -1,0 +1,13 @@
+Você leva seu filho para a floresta para ver os macacos. 
+Você sabe que existe um certo número de macacos lá ,
+mas seu filho é muito novo para apreciar apenas o número inteiro,
+ele precisa começar a contar a partir de 1.
+
+Como um bom pai, você vai sentar e contar os macacos com ele. 
+Dado o número , preencha uma matriz com todos os números até 'n',
+incluindo o próprio número de 'n', mas excluindo zero.
+
+Por exemplo:
+
+monkeyCount(10) // --> [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+monkeyCount(1) // --> [1]

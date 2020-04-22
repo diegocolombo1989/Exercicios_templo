@@ -1,0 +1,21 @@
+Peter gosta de assar alguns bolos. Ele tem algumas receitas e ingredientes.
+ Infelizmente ele não é bom em matemática. Você pode ajudá-lo a descobrir quantos bolos ele poderia assar 
+ considerando suas receitas?
+
+Escreva uma função bolos (), que pega a receita (objeto) e os ingredientes disponíveis (também um objeto)
+e retorna o número máximo de bolos que Peter pode assar (inteiro). Para simplificar, não há unidades para as
+quantidades (por exemplo, 1kg de farinha ou 200g de açúcar são simplesmente 1 ou 200). 
+Os ingredientes que não estão presentes nos objetos podem ser considerados 0.
+
+Por exemplo:
+
+bolos ( {farinha: 500, açúcar: 200, ovos: 1},
+
+{farinha: 1200, açúcar: 1200, ovos: 5, leite: 200}
+); // deve retornar 2
+
+bolos ( {maçãs: 3, farinha: 300, açúcar: 150, leite: 100, óleo: 100}
+,
+
+{açúcar: 500, farinha: 2000, leite: 2000}
+); // deve retornar 0
