@@ -1,0 +1,7 @@
+Dada uma matriz de números, encontre os dois maiores e retorne a soma deles. A matriz de entrada deve conter, no mínimo, dois elementos e todos devem ser numéricos.
+
+Por exemplo:
+
+[10,14,2,23,19] deve retornar 42 (ou seja, soma de 23,19)
+
+[99,2,2,23,19] deve retornar 122 (ou seja, soma de 99,23)
